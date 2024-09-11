@@ -7,9 +7,6 @@ You then sum that number with the one preceding it to get the next number,, and 
 For example, if you have the sequence 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, then the next number in the sequence is 55.
 '''
 
-def fibonnaciSequence(n):
-    print(n)
-
 def find_next_number_in_sequence():
     sequence = input("Please enter the sequence: ")
     split_sequence = sequence.split(',')
